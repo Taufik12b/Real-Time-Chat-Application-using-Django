@@ -1,0 +1,52 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+db.sqlite3
+
+# Environment files
+.env
+*.env
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Static and media (if generated locally)
+static/
+media/
+
+# Test coverage and cache
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS-specific files
+.DS_Store
+
+# Backup/swap files
+*.bak
+*.swp
+*.swo
